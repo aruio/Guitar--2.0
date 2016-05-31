@@ -8,8 +8,7 @@ public class Util {
 
 	public static void main(String[] args) {
 		Connection conn = Util.getConnection();
-		// tester.add();
-		System.out.println(conn);// 测试链接
+		System.out.println(conn);
 	}
 
 	public static Connection getConnection() {
@@ -28,7 +27,7 @@ public class Util {
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO 自动生成的 catch 块
+				// TODO 脳脭露炉脡煤鲁脡碌脛 catch 驴茅
 				e.printStackTrace();
 			}
 		}
